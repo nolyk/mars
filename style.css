@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+ul {
+  padding: 45px 171px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul li {
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+}
+ul li:nth-child(2) img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  display: flex;
+}
+.off {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.t1 {
+  color: rgba(240, 64, 15, 1);
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+hr {
+  border: 2px solid rgba(222, 219, 219, 1);
+}
+.off img {
+  width: 27px;
+  height: 23px;
+}
+.all {
+  display: flex;
+  justify-content: center;
+  margin-top: 46px;
+}
+.all1 {
+  width: 650px;
+  height: 786px;
+  border: 1px solid rgba(222, 219, 219, 1);
+  border-radius: 50px;
+}
+.imgs img:nth-child(1) {
+  width: 150px;
+  height: 40px;
+}
+.imgs {
+  padding: 66px 65px;
+  display: flex;
+  justify-content: space-between;
+}
+.t2 {
+  color: rgba(14, 13, 93, 1);
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.texts {
+  padding-left: 64px;
+  padding-top: 80px;
+}
+.buttons {
+  background-color: rgba(245, 245, 245, 1);
+  padding: 8px 11px;
+  width: 533px;
+  border-radius: 20px;
+  height: 70px;
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+}
+.buttons button {
+  background-color: rgba(245, 245, 245, 1);
+  border: none;
+  width: 255px;
+  height: 54px;
+  border-radius: 15px;
+  font-size: 28px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+
+.buttons button:focus {
+  background-color: white;
+  border: none;
+  width: 255px;
+  height: 54px;
+  border-radius: 15px;
+  font-size: 28px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+input {
+  width: 533px;
+  height: 70px;
+  border-radius: 20px;
+  border: 1px solid rgba(117, 117, 117, 0.19);
+  font-size: 24px;
+  color: rgba(117, 117, 117, 0.7);
+  padding: 20px 51px;
+  margin-top: 39px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.t3 {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.qr {
+  margin-top: 18px;
+  text-align: center;
+}
+.qr a {
+  color: inherit;
+  color: rgba(0, 0, 0, 0.64);
+}
+.button1{
+    margin-top: 31px;
+    margin-left: 320px;
+}
+.button1 button {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  background-color: rgba(246, 158, 134, 1);
+  padding: 17px 23px;
+  border: none;
+  border-radius: 20px;
+}
+.button1 button:active {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(240, 64, 15, 1);
+    padding: 17px 23px;
+    border: none;
+    border-radius: 20px;
+  }
